@@ -13,7 +13,12 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a
+            className="navbar-brand"
+            target="_blank"
+            rel="noreferrer"
+            href="https://raj01999.github.io/MyFirstJavaScriptProject/"
+          >
             {this.props.title}
           </a>
           <button
@@ -30,19 +35,32 @@ export default class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://raj01999.github.io/Su-Library/"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/">
+                <a
+                  className="nav-link active"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://raj01999.github.io/Dummy-Project-5/"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle active"
-                  href="/"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://raj01999.github.io/fetch-data/"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -52,12 +70,22 @@ export default class Navbar extends Component {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://raj01999.github.io/first-React-app/"
+                    >
                       React
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://raj01999.github.io/MyFirstWebsite/"
+                    >
                       JavaScript
                     </a>
                   </li>
@@ -65,7 +93,12 @@ export default class Navbar extends Component {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <a
+                      className="dropdown-item"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://raj01999.github.io/MySecondWebsite/"
+                    >
                       Html-Css
                     </a>
                   </li>
